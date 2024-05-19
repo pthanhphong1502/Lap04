@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivUitLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/btnFadeInXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade In (XML)" />
+
+            <Button
+                android:id="@+id/btnFadeOutXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out (XML)" />
+
+            <Button
+                android:id="@+id/btnBlinkXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blink (XML)" />
+
+            <Button
+                android:id="@+id/btnZoomInXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zoom In (XML)" />
+
+            <Button
+                android:id="@+id/btnZoomOutXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zoom Out (XML)" />
+
+            <Button
+                android:id="@+id/btnRotateXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotate (XML)" />
+
+            <Button
+                android:id="@+id/btnMoveXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Move (XML)" />
+
+            <Button
+                android:id="@+id/btnSlideUpXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slide Up (XML)" />
+
+            <Button
+                android:id="@+id/btnBounceXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bounce (XML)" />
+
+            <Button
+                android:id="@+id/btnCombineXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combine (XML)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <Button
+                android:id="@+id/btnFadeInCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade In (Code)" />
+
+            <Button
+                android:id="@+id/btnFadeOutCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fade Out (Code)" />
+
+            <Button
+                android:id="@+id/btnBlinkCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blink (Code)" />
+
+            <Button
+                android:id="@+id/btnZoomInCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zoom In (Code)" />
+
+            <Button
+                android:id="@+id/btnZoomOutCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zoom Out (Code)" />
+
+            <Button
+                android:id="@+id/btnRotateCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotate (Code)" />
+
+            <Button
+                android:id="@+id/btnMoveCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Move (Code)" />
+
+            <Button
+                android:id="@+id/btnSlideUpCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slide Up (Code)" />
+
+            <Button
+                android:id="@+id/btnBounceCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bounce (Code)" />
+
+            <Button
+                android:id="@+id/btnCombineCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combine (Code)" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
